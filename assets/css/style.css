@@ -21,19 +21,19 @@ header
   color: #ffffff;
 }
 /* this is a class selector for line 12 for header setting the display of the text "Horiseon" and the font size. */
-h1
+header h1
 {
   display: inline-block;
   font-size: 48px;
 }
 /* this is a class selector for line 12 "seo" for the header setting the text "seo" in a specific color. */
-.seo
+header h1 .seo
 {
   color: #d9dcd6;
 }
 /*  this is a class selector for line 13-25 by adding a padding at the top for 15 pixels shifting it downwards, 
     margin-right 20 pixels by shifting it to the left, displaying the font and text to the right side of the header page. */
-header div
+header nav
 {
   padding-top: 15px;
   margin-right: 20px;
@@ -42,7 +42,7 @@ header div
   font-size: 20px;
 }
 /* this is a class selector for line 14-24, everything in the header div unlist will have the list style type as none */
-ul
+header nav  ul
 {
   list-style-type: none;
 }
@@ -50,7 +50,7 @@ ul
 /*  this is a class selector for line 15-23, everything in the header div list will have a display inline block and the 
     texts will be 25 pixels apart from each other. */
 */ 
-li
+header nav ul li
 {
   display: inline-block;
   margin-left: 25px;
@@ -62,7 +62,7 @@ a
   text-decoration: none;
 }
 
-* this sets the hyperlink from line 16-22 a specific color. */
+/* this sets the hyperlink from line 16-22 a specific color. */
 /* this sets all pargraphs, <p>, to a specific font size; 16 pixels. */
 p
 {
@@ -174,7 +174,7 @@ p
     background-color: #0072bb;
     color: #ffffff;
 }
-*  this is for line 36-42; the content will have a specific font, background color, text color, along with a specific height. 
+/*  this is for line 36-42; the content will have a specific font, background color, text color, along with a specific height. 
     It will have a padding of 50 pixels away from the border on all sides and a margin of 20 pixels pushed upwards. */
 .online-reputation-management {
     margin-bottom: 20px;
